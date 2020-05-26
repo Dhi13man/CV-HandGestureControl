@@ -72,9 +72,12 @@ All Image Datasets stored in the `Datasets` folder are self created using `datas
 4. V Sign
 5. Ok Sign (Not trained by models)
 
+# Examples
+The `Examples` folder contains two video examples of `main.py` in action in a Game and for Spotify song changing, all through key presses. 
+
 ---
 # Working Demonstrations:
 1. **[Changing songs in Spotify](https://github.com/Dhi13man/CV-HandGestureControl/blob/master/cvgesture.mp4)**
 1. **Usage in Games (Game Used: [Orcs Must Die 2](https://store.steampowered.com/app/201790/Orcs_Must_Die_2/)):**\
-[Substitue Mouse Input](https://github.com/Dhi13man/CV-HandGestureControl/blob/master/cvgesture1.mp4)\
-[Substitute Keyboard and Mouse Input](https://github.com/Dhi13man/CV-HandGestureControl/blob/master/cvgesture2.mp4)
+[Substitue Mouse Input](https://github.com/Dhi13man/CV-HandGestureControl/tree/master/Examples/cvgesture1.mp4)\
+[Substitute Keyboard and Mouse Input](https://github.com/Dhi13man/CV-HandGestureControl/tree/master/Examples/cvgesture2.mp4)
