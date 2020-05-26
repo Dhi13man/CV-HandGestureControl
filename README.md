@@ -79,5 +79,5 @@ The `Examples` folder contains two video examples of `main.py` in action in a Ga
 # Working Demonstrations:
 1. **[Changing songs in Spotify](https://github.com/Dhi13man/CV-HandGestureControl/blob/master/cvgesture.mp4)**
 1. **Usage in Games (Game Used: [Orcs Must Die 2](https://store.steampowered.com/app/201790/Orcs_Must_Die_2/)):**\
-[Substitue Mouse Input](https://github.com/Dhi13man/CV-HandGestureControl/tree/master/Examples/cvgesture1.mp4)\
-[Substitute Keyboard and Mouse Input](https://github.com/Dhi13man/CV-HandGestureControl/tree/master/Examples/cvgesture2.mp4)
+[Substitue Mouse Input](https://github.com/Dhi13man/CV-HandGestureControl/raw/master/Examples/cvgesture1.mp4)\
+[Substitute Keyboard and Mouse Input](https://github.com/Dhi13man/CV-HandGestureControl/raw/master/Examples/cvgesture2.mp4)
