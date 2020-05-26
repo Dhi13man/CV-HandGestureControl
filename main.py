@@ -56,21 +56,22 @@ if __name__ == '__main__':
 
             response = get_mode([predict_RF, predict_SVM, predict_KNN])
             print(predict_RF)
-            continue
-            if response == 0:
-                pass
-            elif response == 1:
-                keyDown('w')
-                sleep(0.15)
-                keyUp('w')
-            elif response == 2:
-                keyDown('shiftleft')
-                sleep(0.005)
-                keyUp('shiftleft')
-            elif response == 3:
-                keyDown('shiftright')
-                sleep(0.005)
-                keyUp('shiftright')
-                keyDown('w')
-                sleep(0.02)
-                keyUp('w')
+            
+            # Code to perform actions based on gesture, below (uncomment to use):
+            # if response == 0:
+            #     pass
+            # elif response == 1:
+            #     keyDown('w')
+            #     sleep(0.15)
+            #     keyUp('w')
+            # elif response == 2:
+            #     keyDown('shiftleft')
+            #     sleep(0.005)
+            #     keyUp('shiftleft')
+            # elif response == 3:
+            #     keyDown('shiftright')
+            #     sleep(0.005)
+            #     keyUp('shiftright')
+            #     keyDown('w')
+            #     sleep(0.02)
+            #     keyUp('w')

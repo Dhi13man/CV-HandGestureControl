@@ -15,6 +15,9 @@ Interpretation when hand is in relevant area (marked by green box):
 3. Middle Finger `2`
 4. V Sign `3`
 
+
+Use 64-bit Python in case of Memory Error.
+
 ---
 
 # Four Classification Models:
