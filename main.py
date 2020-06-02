@@ -55,9 +55,8 @@ if __name__ == '__main__':
             predict_KNN = process_thread1.result()
 
             response = get_mode([predict_RF, predict_SVM, predict_KNN])
-            #0: No Hand, 1: High Five, 2: Middle Finger, 3: V Sign
-            print(predict_RF)
-            
+            # 0: No Hand, 1: High Five, 2: Middle Finger, 3: V Sign
+            print(response)
             
             # Code to perform actions based on gesture, below (uncomment and/or modify to use):
             # if response == 0:

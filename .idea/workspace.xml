@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c6bd37d-9452-4dc6-a5d4-6c93c767a90c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/dhi13man.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_NeuralNet.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/livefeed.png" beforeDir="false" afterPath="$PROJECT_DIR$/livefeed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +53,15 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="X:\Soft_Projects\PycharmProjects\CVGestureControl" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="X:\Soft_Projects\PycharmProjects\CVGestureControl\Examples" />
       <recent name="X:\Soft_Projects\PycharmProjects\CVgesturecontrol\Datasets" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.gesture_CNN_DL">
+  <component name="RunManager" selected="Python.main_NeuralNet">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="CVgesturecontrol" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,28 +98,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset_manips.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="gesture (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CVgesturecontrol" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gesture.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,13 +169,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main_NeuralNet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CVgesturecontrol" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_NeuralNet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main_NeuralNet" />
         <item itemvalue="Python.gesture_CNN_DL" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.gesture_ML" />
         <item itemvalue="Python.dataset_manips" />
-        <item itemvalue="Python.gesture (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +214,7 @@
       <workItem from="1590476897504" duration="8052000" />
       <workItem from="1590497004640" duration="17079000" />
       <workItem from="1590521977030" duration="6947000" />
-      <workItem from="1591117854402" duration="5915000" />
+      <workItem from="1591117854402" duration="7554000" />
     </task>
     <task id="LOCAL-00001" summary="main.py now uses both Linear SVM and Random Forest together, for more accurate predictions.&#10;&#10;Added 2 New ML Classification Models:&#10;1. Linear SVM&#10;2. Random Forest&#10;&#10;Tested and rejected Models:&#10;1. Gaussian Naive Bayes&#10;2. Decision Trees">
       <created>1590436973995</created>
@@ -228,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590507752402</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Deep Learning Classification Model:&#10;Convolutional Neural Network">
+      <created>1591128031839</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591128031839</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +246,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="main.py now uses both Linear SVM and Random Forest together, for more accurate predictions.&#10;&#10;Added 2 New ML Classification Models:&#10;1. Linear SVM&#10;2. Random Forest&#10;&#10;Tested and rejected Models:&#10;1. Gaussian Naive Bayes&#10;2. Decision Trees" />
     <MESSAGE value="main.py now uses both Linear SVM and Random Forest together, for more accurate predictions.&#10;&#10;Played around with Multi processing.&#10;&#10;Added 2 New ML Classification Models:&#10;1. Linear SVM&#10;2. Random Forest&#10;&#10;Tested and rejected Models:&#10;1. Gaussian Naive Bayes&#10;2. Decision Trees" />
-    <option name="LAST_COMMIT_MESSAGE" value="main.py now uses both Linear SVM and Random Forest together, for more accurate predictions.&#10;&#10;Played around with Multi processing.&#10;&#10;Added 2 New ML Classification Models:&#10;1. Linear SVM&#10;2. Random Forest&#10;&#10;Tested and rejected Models:&#10;1. Gaussian Naive Bayes&#10;2. Decision Trees" />
+    <MESSAGE value="Added Deep Learning Classification Model:&#10;Convolutional Neural Network" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Deep Learning Classification Model:&#10;Convolutional Neural Network" />
   </component>
   <component name="WindowStateProjectService">
     <state x="654" y="275" key="#Notifications" timestamp="1590418915876">
@@ -264,10 +274,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="115" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1588411853277" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1590507646225">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1591128019876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1590507646225" />
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591128019876" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1590527691221">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
